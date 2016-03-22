@@ -1,0 +1,14 @@
+th{
+    background-color:#363636;
+    color:white;
+	height:50px;
+  }
+td{
+	height:30px; 
+ }
+.paytype{
+	height:20px; 
+}
+.delivertype{
+	height:20px; 
+}

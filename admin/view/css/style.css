@@ -1,0 +1,121 @@
+*{
+	font-family: "Microsoft YaHei";
+	word-wrap: break-word;
+	outline:none;
+}
+
+body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+.title_img{
+	margin-left: 37px;
+}
+
+.title_img img{
+	width: 40px;
+	height: 40px;
+	margin-top: 2px;
+}
+
+.mainhd {
+	background: #363636;
+}
+
+
+.menutd {
+    background: url(../image/left.png) repeat-y left top;
+}
+
+div {
+    display: block;
+}
+
+.main-menu {
+    position: relative;
+    z-index: 20;
+    width: 161px;
+}
+
+.main-menu ul {
+    background: url(../image/left.png) repeat-y 0px 0px;
+    display: none;
+    width: 161px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+ul, li {
+	list-style-image: none;
+	list-style-type: none;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+dd {
+    display: block;
+    -webkit-margin-start: 0px;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+
+.main-menu li a, .main-menu dl dt {
+    line-height: 20px;
+    text-decoration: none;
+    color: #565D68;
+    background: url(../image/bg_position.png) no-repeat;
+    background-position: 0 -170px;
+    display: block;
+    width: 120px;
+    height: 20px;
+    float: left;
+    clear: left;
+    padding: 4px 12px 4px 29px;
+    margin: 0;
+}
+
+ .main-menu li a.selected{
+    background-position: -161px -170px;
+    color: #FFF;
+ }

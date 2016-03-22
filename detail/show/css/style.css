@@ -1,0 +1,337 @@
+*{
+	padding:0;
+	margin:0 auto;
+	font-family: "Microsoft YaHei";
+	color:#363636;
+}
+
+body{
+	text-align: center;
+	width: 1200px;
+	background: #F5F5F5;
+}
+
+a{
+	text-decoration: none;
+}
+
+.index{
+	width: 1200px;
+	margin:0 auto;
+}
+
+.index_title{
+	width: 1200;
+	height:45px;
+	background: #363636;
+	position: fixed;
+	z-index: 99;
+}
+
+.index_title_box{
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+}
+
+.index_title_box div{
+	float: left;
+	color:white;
+	width:130px;
+	height:100%;
+	position: relative;
+	z-index:2;
+}
+
+.index_title_top{
+	position: relative;
+	z-index: 99;
+	width: 100%;
+	cursor: pointer;
+}
+
+.index_title_top div{
+	position: relative;
+	z-index: 1;
+	width:100%;
+	height:10px;
+	top:10px;
+}
+
+.index_title_img{
+	margin-left: 37px;
+}
+
+.index_title_img img{
+	width:40px;
+	height: 40px;
+	margin-top: 2px;
+}
+
+div .index_title_img_right{
+	margin-left:20px;
+	width: 50px;
+	cursor: pointer;
+}
+
+.index_title_img_right img{
+	margin-top: 6px;
+}
+
+ul{
+	list-style: none;
+}
+
+.index_submeun_title{
+	font-size: 16px;
+	padding-top: 10px;
+	height:35px;
+	color:white;
+}
+
+.index_submeun{
+	height:45px;
+}
+
+.index_submeun_text{
+	color:white;
+	background:#363636;
+	height:35px;
+	padding-top: 10px;
+	border:0px solid white;
+	border-top-width: 1px;
+	border-top-color:white;
+	display: none;
+}
+
+.search_img{
+	width: 30px;
+	height:33px;
+	position: relative;
+	bottom:2px;
+}
+
+.show_img{
+	width: 1200px;
+	height:506px;
+	overflow: hidden;
+	position: relative;
+}
+
+.show_img img{
+	width:1200px;
+	height:506px;
+	position: absolute;
+	left:0px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+.main_box{
+	width: 1200px;
+	overflow: hidden;
+	margin-top: 45px;
+}
+
+.main_box_title div{
+	float:left;
+}
+
+.main_box_name{
+	font-size: 30px;
+	margin: 50px 30px 0px 75px;
+}
+
+.main_box_info{
+	width: 300px;
+	height:150px;
+	margin-left: 45px;
+}
+
+.main_box_info div{
+	float:none;
+}
+
+.main_box_img img{
+	width:300px;
+}
+
+.index_slogn{
+	margin-top:45px;
+	width: 100%;
+	font-size: 50px;
+	margin-bottom: 45px;
+}
+
+.copyright{
+	width: 1200px;
+	height:200px;
+	background: #363636;
+	margin-bottom: 50px;
+}
+
+.copyright_text{
+	color:white;
+	padding-top: 180px;
+}
+
+.show_search{
+	display: none;
+	position: fixed;
+	left:0px;
+	top:0px;
+	z-index:999;
+	background:#B5B5B5;
+	opacity: 0.3;
+	height:100%;
+	width: 100%;
+}
+
+#search_bar{
+	color:black;
+	opacity: 1;
+	font-size: 20px;
+	position: relative;
+	top:5px;	
+	width: 700px;
+	height:30px;
+}
+
+.close{
+	cursor:pointer;
+	width: 50px;
+	height:50px;
+	font-size: 25px;
+	position: relative;
+	top:-28px;
+	left:330px;
+}
+
+.login{
+	text-align: left;
+	width: 100%;
+}
+
+.login_bg{
+	width: 900px;
+	height:450px;
+	background:white;
+	box-shadow:0 0 10px #B5B5B5;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.login_bg hr{
+	width: 95%;
+	margin-top: -10px;
+	border: 1px solid #B5B5B5;
+	opacity: 0.5;
+}
+
+.login_title{
+	position: relative;
+	width: 100%;
+	height:90px;
+	font-size: 22px;
+	left:20px;
+	top:27px;
+}
+
+.login_title2{
+	margin-top: 60px;
+	font-size: 20px;
+	margin-left: 250px;
+}
+
+.login_input input{
+	width:250px;
+	height:25px;
+	font-size: 16px;
+	margin-left: 280px;
+	margin-top: 8px;
+}
+
+.login_forget, .login_reg{
+	font-size: 10px;
+	margin-left: 280px;
+	margin-top: 5px;
+}
+
+.login_forget a, .login_reg a{
+	color:#00B2EE;
+	text-decoration: underline;
+}
+
+.login_btn input{
+	-webkit-appearance: none;
+	width:80px;
+	height:27px;
+	font-size: 15px;
+	background: #00B2EE;
+	color:white;
+	border: 1px solid #00B2EE;
+	text-align: center;
+	margin-top: 6px;
+	position: relative;
+	padding-bottom: 1px;
+	left:455px;
+	top:-20px;
+	border-radius:8px;
+	cursor: pointer;
+}
+
+.one{
+	width:1200px;
+}
+.two{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.three{
+	width:1200px;
+	height:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.three-key{
+	width:50px;
+	height:60px;
+	float:left;
+}
+.three-value{
+	width:1150px;
+	height:60px;
+	float:left;
+	font-size:14px;
+}
+.three-value li{
+	width:140px;
+	height:26;
+	float:left;
+	list-style-type:none;
+}
+
+.second{
+	width:1200px;
+	height:1320px;
+}
+.second-01{
+	width:1200px;
+}
+.second-list li{
+	width:300px;
+	height:400px;
+	list-style-type:none;
+	display:inline;
+	float:left;
+	margin-top:50px;
+}
+.s-01-money{
+	width:300px;
+	height:35px;
+}
+.s-01-name{
+    width:300px;
+	height:35px;
+}
