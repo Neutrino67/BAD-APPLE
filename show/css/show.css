@@ -1,0 +1,56 @@
+
+.one{
+	width:1200px;
+}
+.two{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.three{
+	width:1200px;
+	height:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.three-key{
+	width:50px;
+	height:60px;
+	float:left;
+}
+.three-value{
+	width:1150px;
+	height:60px;
+	float:left;
+	font-size:14px;
+}
+.three-value li{
+	width:140px;
+	height:26;
+	float:left;
+	list-style-type:none;
+}
+
+.second{
+	width:1200px;
+	height:1320px;
+}
+.second-01{
+	width:1200px;
+}
+.second-list li{
+	width:300px;
+	height:400px;
+	list-style-type:none;
+	display:inline;
+	float:left;
+	margin-top:50px;
+}
+.s-01-money{
+	width:300px;
+	height:35px;
+}
+.s-01-name{
+    width:300px;
+	height:35px;
+}
